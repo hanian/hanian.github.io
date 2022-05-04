@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>TEST TITLE</title>
-</head>
-<body>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	this is first page!
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="css/style.css" rel="stylesheet" />
+</head>
+<body class="container">
+<div class="row py-3">
+    <div class="col-12 col-md-6 text-left log"><img src="img/log.png"/></div>
+    <div class="col-12 col-md-6 header">无锡大地云信息科技有限公司</div>
+</div>
+<div class="row">
+<div class="col-12 py-3 menu">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" href="." data-link="index">首 页</a></li>
+        <li class="nav-item"><a class="nav-link" href="." data-link="service">服 务</a></li>
+        <li class="nav-item"><a class="nav-link" href="." data-link="case">案 例</a></li>
+        <li class="nav-item"><a class="nav-link" href="." data-link="about">联 系</a></li>
+    </ul>
+</div>
+</div>
+<!-- 页头结束-->
+
+<div id="Carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/top.jpg" class="d-block w-100">    
+    </div>
+    <div class="carousel-item">
+        <img src="img/service.jpg" class="d-block w-100">    
+    </div>   
+    <div class="carousel-item">
+        <img src="img/case.jpg" class="d-block w-100">    
+    </div>  
+</div>
+
+</div>
+
+<!-- 页面内容 开始-->
+<div id="content" class="container">
+        <div class="topImg">
+            <ul>
+                <li class="preimg"><img src="img/xdll.jpg"></li>
+            </ul>    
+        </div>
+        <!-- 页脚 开始-->
+        <nav class="navba justify-content-between fixed-bottom">
+            <div class="footer">
+            <p><span>Copyright &copy; 2015-2021无锡大地云信息科技有限公司 All Rights Reserved</span><span> 网站备案号：<a href="https://beian.miit.gov.cn/">苏ICP备15022519号-1</a></span></p>
+            </div>
+        </nav>
+        <!-- 页脚结束 -->
+</div>
+<!-- 页面内容 结束-->
+
+</div>
+<!-- 页面 wrapper 结束-->
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/dadiyun-mini.js"></script>
 
 </body>
 </html>
